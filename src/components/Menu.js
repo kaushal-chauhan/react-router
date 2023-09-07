@@ -13,6 +13,7 @@ function Menu() {
             <NavLink style={activeLink} to="/">Home Page</NavLink>
             <NavLink style={activeLink} to="/about-us">About Us</NavLink>
             <NavLink style={activeLink} to="/contact-us">Contact Us</NavLink>
+            <NavLink style={activeLink} to="/products">Products</NavLink>
         </nav>
     )
 }
