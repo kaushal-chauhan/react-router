@@ -8,6 +8,7 @@ import Error from "./components/Error"
 import ProductList from "./components/Products/ProductList"
 import Reviews from "./components/Products/Reviews"
 import Sharewith from "./components/Products/Sharewith"
+import Product from "./components/Products/Product"
 
 import "./index.css"
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="about-us" element={<AboutUs />} />
+        <Route path="products/:productId" element={<Product />} />
         <Route path="products" element={<ProductList />} >
           <Route index element={<Reviews />} />
           <Route path="reviews" element={<Reviews />} />
